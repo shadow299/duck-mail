@@ -1,4 +1,4 @@
-# Simple Mail via PHP mail() - WordPress Plugin
+# Duck Mail via PHP mail() - WordPress Plugin
 
 A lightweight WordPress plugin that replaces WP Mail SMTP by using PHP's native `mail()` function to send emails without any sending limits.
 
@@ -26,8 +26,8 @@ A lightweight WordPress plugin that replaces WP Mail SMTP by using PHP's native 
 2. Extract the files to `/wp-content/plugins/smtp-wp-plugin/`
 3. Go to WordPress Admin Dashboard
 4. Navigate to **Plugins**
-5. Find "Simple Mail via PHP mail()" and click **Activate**
-6. Go to **Settings > Simple Mail** to configure
+5. Find "Duck Mail via PHP mail()" and click **Activate**
+6. Go to **Settings > Duck Mail** to configure
 
 ### Method 2: Upload from Dashboard
 
@@ -40,7 +40,7 @@ A lightweight WordPress plugin that replaces WP Mail SMTP by using PHP's native 
 ## Configuration
 
 1. Go to **WordPress Admin Dashboard**
-2. Navigate to **Settings → Simple Mail**
+2. Navigate to **Settings → Duck Mail**
 3. Enable the plugin (if not already enabled)
 4. Set your **From Email Address** (should match your server configuration)
 5. Set your **From Name** (your website or business name)
@@ -98,7 +98,7 @@ No additional configuration needed!
 
 ### Emails Not Sending
 
-1. **Check if plugin is enabled** - Go to Settings → Simple Mail
+1. **Check if plugin is enabled** - Go to Settings → Duck Mail
 2. **Verify mail() function** - Settings page shows if mail() is available
 3. **Check sender email** - Should match your server configuration
 4. **Review server logs** - Ask Hostinger support to check server error logs
